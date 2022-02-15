@@ -1,5 +1,7 @@
 body {
     background-color: darksalmon;
+    height: 100vh;
+    cursor: cell;
 }
 
 .header-div {
@@ -9,11 +11,7 @@ body {
     border-radius: 30px;
     border: 2px solid black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-img {
-    width 270px;
-    border: 5px solid black;
+    cursor: cell;
 }
 
 .about-div {
@@ -23,6 +21,12 @@ img {
     border-radius: 30px;
     border: 2px solid black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: cell;
+}
+
+img {
+    width 270px;
+    border: 5px solid black;
 }
 
 .projects-div {
@@ -33,6 +37,7 @@ img {
     border: 2px solid black;
     padding: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: cell;
 }
 
 .contact-div {
@@ -43,5 +48,5 @@ img {
     border: 2px solid black;
     padding: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: cell;
 }
-
